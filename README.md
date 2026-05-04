@@ -22,7 +22,7 @@ Now modify /etc/crontab to activate in the morning and deactivate in the night t
     1 22  * * *   max killall cvlc
     1 22  * * *   max killall vlc
 
-## The presensce sensor
+## The presence sensor
 In order to reduce the use of the monitor when nobody is looking at it, we may use the laptop webcam as a presence sensor.
 
 First of all install motion (https://motion-project.github.io/), every distribution has its way, for example:  `sudo apt get install motion`
